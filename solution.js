@@ -42,7 +42,7 @@ function listNFTs(){
 
 // print the total number of NFTs we have minted to the console
 function getTotalSupply(){ 
-    console.log(`\n${NFTs.length}`)
+    return NFTs.length
 }
 
 // call your functions below this line
@@ -54,4 +54,4 @@ mintNFT("Desert Nomad", "sandy brown", "uncommon", "camel", "sun");
 
 listNFTs()
 
-getTotalSupply()
+console.log(`\n${getTotalSupply()}`)
